@@ -55,6 +55,11 @@ const navList = [
         name: nav.viewer.name
     },
     {
+        pathname: getRelativeLocaleUrl(lang, '/ocr-pdf'),
+        title: lang === 'zh-CN' ? 'OCR 文字识别与 PDF 编辑器' : 'OCR & Editable PDF',
+        name: 'OCR'
+    },
+    {
         pathname: getRelativeLocaleUrl(lang, '/long-image'),
         title: nav.longImage.title,
         name: nav.longImage.name

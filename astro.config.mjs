@@ -19,6 +19,7 @@ const localizedPages = [
   'excel-viewer',
   'csv-viewer',
   'pdf-viewer',
+  'ocr-pdf',
   'archive-viewer',
   'long-image',
   'video-convert',
